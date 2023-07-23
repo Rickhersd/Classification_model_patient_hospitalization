@@ -1,0 +1,71 @@
+{
+   "Agente_aislado": {
+      "No": 0,
+      "Si": 1
+   },
+   "Antibiotico_en_profilaxis": {
+      "Cefalosporina_aminoglucocido": 0,
+      "Fluoroquinolona_aminoglicosido": 1,
+      "Oroquinolonas": 2,
+      "Otros": 3
+   },
+   "Biopsia": {
+      "Adenocarcinoma_gleason_10": 0,
+      "Adenocarcinoma_gleason_6": 1,
+      "Adenocarcinoma_gleason_7": 2,
+      "Adenocarcinoma_gleason_8": 3,
+      "Adenocarcinoma_gleason_9": 4,
+      "Carcinoma_indiferenciado_de_celulas_claras": 5,
+      "Hiperplasia_prostatica": 6,
+      "Neg": 7,
+      "Prostatitis": 8
+   },
+   "Biopsias_previas": {
+      "No": 0,
+      "Si": 1
+   },
+   "Complicacion_infecciosa": {
+      "No": 0,
+      "Si": 1
+   },
+   "Cultivo": {
+      "No": 0,
+      "Si": 1
+   },
+   "Cup": {
+      "No": 0,
+      "Si": 1
+   },
+   "Diabetes": {
+      "No": 0,
+      "Si": 1
+   },
+   "EPOC": {
+      "No": 0,
+      "Si": 1
+   },
+   "Fiebre": {
+      "No": 0,
+      "Si": 1
+   },
+   "Hospitalizacion": {
+      "No": 0,
+      "Si": 1
+   },
+   "Hospitalizacion_ultimo_mes": {
+      "No": 0,
+      "Si": 1
+   },
+   "Itu": {
+      "No": 0,
+      "Si": 1
+   },
+   "Patron_de_resistencia": {
+      "No": 0,
+      "Si": 1
+   },
+   "Volumen_prostatico": {
+      "No": 0,
+      "Si": 1
+   }
+}
