@@ -12,7 +12,7 @@ En la siguiente tabla, se encuentra un diccionario de datos asociado:
 
 ![image](./src/data_dict.png)
 
-## Desarrollo del proyecto
+## Desarrollo del Proyecto
 
 Primero se comenzó realizando un análisis exploratorio y transformación de los datos, identificando outliers, datos faltantes o cualquier otro tipo de problema. En este proceso de renombraron las columnas, se formatearon y generalizaron las categorías y, por último, se codificaron las variables categoricas para que puedan ser entendidas por lor modelos de Machine Learning. Los resultados fueron exportados a la carpeta EDA_ETL_results de la siguiente manera:
 
@@ -22,7 +22,7 @@ Primero se comenzó realizando un análisis exploratorio y transformación de lo
 
 Luego, con el archivo Encoded_dataset.csv se procedió a entrenar diferentes modelos de Machine Learning capaces de detectar la hospitalización de un paciente. Esto se encuentra en el notebook Ml_Model.ipynb. En el preceso se hizo un oversampling de los datos de entrenamiento y por cada modelo, un ajuste de hiperparámetros con el fin de obtener los mejores resultados posibles. Por último, estos se evaluaron usando las siguientes métricas de evaluación: Matriz de confusión y Reporte de clasificación; y se obtuvieron las conclusiones a la solicitud del cliente.
 
-## Conclusión del projecto
+## Conclusión del Proyecto
 
 Se logró crear un modelo k-vecinos capaz de clasificar si un paciente fue hospitalizado o no con un 99% de fiabilidad, utilizando variables relacionadas con la aparición de complicaciones infecciosas. Previamente, se había logrado corroborar que estas son determinantes a la hora de que un paciente termine o no hospitalizado.
 
